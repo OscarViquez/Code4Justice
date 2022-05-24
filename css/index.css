@@ -674,8 +674,9 @@ header {
 }
 
 .cta__button:hover {
-  background-color: #fa9500;
+  background-color: #fff;
   border-color: #fa9500;
+  color: #fa9500;
 }
 
 .cta-banner-image > img {

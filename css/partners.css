@@ -30,6 +30,8 @@ header {
   border: #d8d8d8 solid 1px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 24px 0px;
   background-color: white;
+  position: fixed;
+  z-index: 3;
 }
 .logo {
   width: 25%;
@@ -156,6 +158,7 @@ header {
 
 }
 
+
 .image-hug {
   /* border: 1px solid black; */
   width: 50%;
@@ -176,6 +179,12 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.hug-h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #7c6a0a;
 }
 .hug-p {
   text-align: left;
@@ -342,6 +351,7 @@ footer {
   border: #1a1a1a solid 1px;
   padding: 3rem 2rem;
   background-color: white;
+  
 }
 .footer-nav {
   width: 100%;
@@ -395,6 +405,8 @@ footer {
 @media (max-width: 600px) {
   header {
     flex-direction: column;
+    position: static;
+    z-index: 0;
   }
   .logo {
     width: 30%;

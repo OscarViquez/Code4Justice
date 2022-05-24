@@ -54,6 +54,9 @@ header {
 
   /* border: #d8d8d8 solid 1px; */
   box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 24px 0px;
+
+  position: fixed;
+  z-index: 3;
 }
 
 .logo {
@@ -127,6 +130,7 @@ header {
   grid-area: sectionMap;
   text-align: center;
   padding: 2rem;
+  padding-top: 8rem;
 }
 
 .sectionMap-container h2 {
@@ -286,6 +290,7 @@ footer {
 
   .sectionMap-container {
     min-width: 25rem;
+    padding-top: 2rem;
   }
 
   .sectionOne-container {
@@ -335,6 +340,8 @@ footer {
 
 header {
   flex-direction: column;
+  position: static;
+  z-index: 0;
 }
 
 .logo {
