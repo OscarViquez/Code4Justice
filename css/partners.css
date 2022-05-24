@@ -16,7 +16,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body{
-  background-color: #ffdac6;
+  background-color: #F7F5ED;
 }
 /* ========================================================== */
 /* Navigation Bar Here */
@@ -63,9 +63,9 @@ header {
 }
 
 #nav-contact-button {
-  background: #EB6424;
+  background: #fa9500;
   padding: 0.8rem 1.2rem;
-  border: #eb6424 solid 2px;
+  border: #fa9500 solid 2px;
   border-radius: 5px;
   color: #ffffff;
   font-size: 1rem;
@@ -124,8 +124,8 @@ header {
   display: inline-block;
   width: 250px;
   padding: 0.6rem 0 0.6rem 0;
-  border: #EB6424 solid 2px;
-  background: #EB6424;
+  border: #fa9500 solid 2px;
+  background: #fa9500;
   color: #ffffff;
   text-align: center;
   border-radius: 5px;
@@ -136,7 +136,7 @@ header {
 }
 
 .button-dark:hover {
-  border: #1b1b1b solid 2px;
+  border: #fa9500 solid 2px;
   background: #ffffff;
   color: #1b1b1b;
   transition: background 0.2s linear;
